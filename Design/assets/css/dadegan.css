@@ -1,0 +1,18 @@
+body{
+	text-align: right;
+	direction: rtl;
+	background-color: rgb(245, 245, 245);
+}
+
+.huge{
+	width:30%;
+}
+
+#search-area{
+	padding-top: 100px;
+	text-align: center;
+}
+
+#search-area input{
+	margin-top: 20px;
+}
