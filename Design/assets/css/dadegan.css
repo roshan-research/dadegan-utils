@@ -9,10 +9,87 @@ body{
 }
 
 #search-area{
-	padding-top: 100px;
 	text-align: center;
 }
 
-#search-area input{
-	margin-top: 20px;
+form#search_form {
+  margin-top: 0;
+  margin-left: -273px;
+  top: 32px;
+  position: fixed;
+  left: 50%;
+  display: block;
+}
+
+form#search_form input[type="text"] {
+  height: 31px;
+  width: 450px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border: none;
+  padding: 4px 10px 0 64px;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(0, 0, 0, .08)),to(rgba(0, 0, 0, .01)));
+  background: -moz-linear-gradient(0% 100% 90deg, rgba(0, 0, 0, .01), rgba(0, 0, 0, .08));
+  box-shadow: 0 1px 0 rgba(255, 255, 255, .87), inset 0 1px 2px rgba(0, 0, 0, .2), inset 0 0 1px rgba(0, 0, 0, .25);
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, .87), inset 0 1px 2px rgba(0, 0, 0, .2), inset 0 0 1px rgba(0, 0, 0, .25);
+  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, .87), inset 0 1px 2px rgba(0, 0, 0, .2), inset 0 0 1px rgba(0, 0, 0, .25);
+  -o-box-shadow: 0 1px 0 rgba(255, 255, 255, .87), inset 0 1px 2px rgba(0, 0, 0, .2), inset 0 0 1px rgba(0, 0, 0, .25);
+  font-family: "B Mitra", "Arial", sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 1;
+  color: #555;
+  float: right;
+}
+
+form#search_form input[type="text"], x:-moz-any-link { padding: 3px 10px 1px 64px; }
+form#search_form input[type="text"], x:-moz-any-link, x:default { padding: 3px 10px 1px 64px; }
+
+form#search_form input[type="text"]:focus {
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(0, 0, 0, .1)),to(rgba(0, 0, 0, .01)));
+  background: -moz-linear-gradient(0% 100% 90deg, rgba(0, 0, 0, .01), rgba(0, 0, 0, .1));
+  box-shadow: 0 1px 0 rgba(255, 255, 255, .87), inset 0 2px 4px rgba(0, 0, 0, .2), inset 0 0 1px rgba(0, 0, 0, .25);
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, .87), inset 0 2px 4px rgba(0, 0, 0, .2), inset 0 0 1px rgba(0, 0, 0, .25);
+  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, .87), inset 0 2px 4px rgba(0, 0, 0, .2), inset 0 0 1px rgba(0, 0, 0, .25);
+  -o-box-shadow: 0 1px 0 rgba(255, 255, 255, .87), inset 0 2px 4px rgba(0, 0, 0, .2), inset 0 0 1px rgba(0, 0, 0, .25);
+  color: #333;
+}
+
+form#search_form button {
+  font-family: "B Mitra", "Arial", sans-serif;
+  position: absolute;
+  bottom: 13px;
+  left: 4px;
+  display: block;
+  width: 50px;
+  height: 27px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -moz-border-radius: 3px;
+  font-size: 13px;
+  line-height: 1em;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 1);
+  padding: 1px 0 0;
+  background: #f2f2f2;
+  color: #555;
+  font-weight: bold;
+  box-shadow: 0 0 1px rgba(0, 0, 0, .25), 0 3px 7px rgba(0, 0, 0, .4), inset 0 1px 0 rgba(255, 255, 255, .87);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, .25), 0 3px 7px rgba(0, 0, 0, .4), inset 0 1px 0 rgba(255, 255, 255, .87);
+  -moz-box-shadow: 0 0 1px rgba(0, 0, 0, .25), 0 3px 7px rgba(0, 0, 0, .4), inset 0 1px 0 rgba(255, 255, 255, .87);
+  -o-box-shadow: 0 0 1px rgba(0, 0, 0, .25), 0 3px 7px rgba(0, 0, 0, .4), inset 0 1px 0 rgba(255, 255, 255, .87);
+  cursor: pointer;
+  text-align: center;
+}
+
+form#search_form button:active {
+  box-shadow: 0 0 1px rgba(0, 0, 0, .2), 0 1px 3px rgba(0, 0, 0, .5), inset 0 1px 0 rgba(255, 255, 255, .87);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, .2), 0 1px 3px rgba(0, 0, 0, .5), inset 0 1px 0 rgba(255, 255, 255, .87);
+  -moz-box-shadow: 0 0 1px rgba(0, 0, 0, .2), 0 1px 3px rgba(0, 0, 0, .5), inset 0 1px 0 rgba(255, 255, 255, .87);
+  -o-box-shadow: 0 0 1px rgba(0, 0, 0, .2), 0 1px 3px rgba(0, 0, 0, .5), inset 0 1px 0 rgba(255, 255, 255, .87);
+  background: #e5e5e5;
+  color: #333;
+  outline: none;
 }
