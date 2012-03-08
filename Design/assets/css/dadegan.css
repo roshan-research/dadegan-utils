@@ -12,6 +12,10 @@ body{
 	text-align: center;
 }
 
+#search-area #img{
+	margin-bottom: 20px;
+}
+
 form#search_form {
   margin-top: 0;
   margin-left: -273px;
@@ -37,7 +41,7 @@ form#search_form input[type="text"] {
   -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, .87), inset 0 1px 2px rgba(0, 0, 0, .2), inset 0 0 1px rgba(0, 0, 0, .25);
   -o-box-shadow: 0 1px 0 rgba(255, 255, 255, .87), inset 0 1px 2px rgba(0, 0, 0, .2), inset 0 0 1px rgba(0, 0, 0, .25);
   font-family: "B Mitra", "Arial", sans-serif;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: normal;
   line-height: 1;
   color: #555;
@@ -69,7 +73,7 @@ form#search_form button {
   -webkit-border-radius: 3px;
   -o-border-radius: 3px;
   -moz-border-radius: 3px;
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1em;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 1);
   padding: 1px 0 0;
