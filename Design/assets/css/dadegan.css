@@ -4,22 +4,18 @@ body{
 	background-color: rgb(242, 242, 242);
 }
 
-.huge{
-	width:30%;
-}
-
 #search-area{
+	margin-top: 200px;
 	text-align: center;
 }
 
 #search-area #img{
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 }
 
 form#search_form {
   margin-top: 0;
   margin-left: -273px;
-  top: 32px;
   position: fixed;
   left: 50%;
   display: block;
