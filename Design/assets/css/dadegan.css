@@ -93,3 +93,51 @@ form#search_form button:active {
   color: #333;
   outline: none;
 }
+
+#top-search-area{
+	margin-top: 25px;
+	height:80px;
+}
+#top-search-area #img{
+	width:50px;
+	margin-right:40px;
+	margin-top: -10px;
+}
+
+#results-area{
+	margin-top: 30px;
+}
+
+#results-area #box{
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	-moz-border-radius: 5px;
+	background: rgb(255,255,255);
+	font-size:18px;
+	padding:20px;
+	box-shadow: 0 0 1px rgba(0, 0, 0, .2), 0 1px 3px rgba(0, 0, 0, .5), inset 0 1px 0 rgba(255, 255, 255, .87);
+	-webkit-box-shadow: 0 0 1px rgba(0, 0, 0, .2), 0 1px 3px rgba(0, 0, 0, .5), inset 0 1px 0 rgba(255, 255, 255, .87);
+	-moz-box-shadow: 0 0 1px rgba(0, 0, 0, .2), 0 1px 3px rgba(0, 0, 0, .5), inset 0 1px 0 rgba(255, 255, 255, .87);
+	-o-box-shadow: 0 0 1px rgba(0, 0, 0, .2), 0 1px 3px rgba(0, 0, 0, .5), inset 0 1px 0 rgba(255, 255, 255, .87);
+}
+
+#results-area #box div{
+	margin-bottom: 20px;
+}
+
+#results-area #box span{
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-o-border-radius: 2px;
+	-moz-border-radius: 2px;
+	padding: 5px;
+	border: 1px solid rgba(155, 155, 155, 0.5);
+	display: inline-block;
+}
+#results-area #box div>span{
+	height: 30px;
+}
+#results-area #box span span{
+	height:20px;
+}
