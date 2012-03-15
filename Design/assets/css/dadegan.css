@@ -122,8 +122,12 @@ form#search_form button:active {
 	-o-box-shadow: 0 0 1px rgba(0, 0, 0, .2), 0 1px 3px rgba(0, 0, 0, .5), inset 0 1px 0 rgba(255, 255, 255, .87);
 }
 
+.offsetr{
+  margin-right: 40px;
+}
+
 #results-area #box div{
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 #results-area #box span{
@@ -131,13 +135,45 @@ form#search_form button:active {
 	-webkit-border-radius: 2px;
 	-o-border-radius: 2px;
 	-moz-border-radius: 2px;
-	padding: 5px;
-	border: 1px solid rgba(155, 155, 155, 0.5);
-	display: inline-block;
+	/*border: 1px solid rgba(155, 155, 155, 0.5);*/
+	font-size:20px;
+	line-height:25px;
 }
+  #results-area #box .valency span{
+    padding: 5px;
+  }
+  #results-area #box .valency{
+    margin-bottom: 60px;
+  }
+  #results-area #box .example span{
+    padding: 2px;
+  }
+
 #results-area #box div>span{
-	height: 30px;
+	
 }
 #results-area #box span span{
 	height:20px;
+}
+
+#results-area #box div.valency span.fa{
+	background: rgba(200, 0, 0, 0.3);
+}
+#results-area #box div.valency span.mf{
+	background: rgba(0, 200, 0, 0.3);
+}
+#results-area #box div.valency span.mfh{
+	background: rgba(0, 0, 200, 0.3);
+}
+#results-area #box div.valency span.mfh span.perp{
+	background: rgba(100, 0, 200, 0.2);
+}
+#results-area #box div.valency span.verb{
+	background: rgba(0, 200, 200, 0.3);
+}
+
+#results-area #box .example span.makhfi{
+  background-color: #DDD;
+  border: 1px dashed #EEE;
+
 }
